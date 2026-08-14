@@ -1,11 +1,18 @@
 # i12306
+Learning for Webspider...
 用于12306抢票，登录使用`selenium`进行手动登录保存`cookies`，随后使用`requests`发出请求
 
 # Install
 ```bash
-conda create -n xxx python=3.10.8
+conda create -n xxx python=3.10
 pip install -r requirement.txt
 ```
+
+# Run
+```bash
+python main.py --buy
+```
+`--buy` 参数用于决定是否确认订单购买，若不加该参数，则仅用于查询
 
 # File
 `main.py` 程序入口 \
@@ -25,11 +32,11 @@ passengers:
   name: "张三"
 
 ticket_info:
-  train_date_test: "2025-09-21"      # 有票且相同车次的一天，用于提前得到车票列车信息        日期格式：YYYY-MM-DD
+  train_date_test: "2026-08-30"      # 有票且相同车次的一天，用于提前得到车票列车信息        日期格式：YYYY-MM-DD
 
-  train_date: "2025-09-22"           # 真正要购买票的日期 也就是要抢的那一天的票
+  train_date: "2026-08-31"           # 真正要购买票的日期 也就是要抢的那一天的票
 
-  train_time: "09:30:00"       # 开售时间
+  train_time: "20:00:00"       # 开售时间
 
   from_station: "上海虹桥"       # 出发地
 
