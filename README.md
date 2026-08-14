@@ -47,4 +47,3 @@ ticket_info:
 # Reference
 - [https://github.com/WizardHeHeJun/12306_go](https://github.com/WizardHeHeJun/12306_go)
 - [https://github.com/mipha777/12306](https://github.com/mipha777/12306)
-
