@@ -1,0 +1,8 @@
+python==3.10.18
+click==8.2.1
+fake-useragent==2.2.0
+httpx==0.28.1
+PyYAML==6.0.2
+requests==2.32.4
+selenium==4.34.2
+urllib3==2.5.0

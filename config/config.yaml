@@ -1,0 +1,25 @@
+passengers:
+  name: "张三"
+
+ticket_info:
+  train_date_test: "2026-08-30"      # 有票且相同车次的一天，用于提前得到车票列车信息        日期格式：YYYY-MM-DD
+
+  train_date: "2026-08-31"           # 真正要购买票的日期 也就是要抢的那一天的票
+
+  train_time: "20:00:00"       # 开售时间
+
+  from_station: "上海虹桥"       # 出发地
+
+  to_station: "温州南"           # 目的地
+
+  preferred_trains:
+    - G7349                     # 车次号
+#  candidate_trains:
+#    - G7591
+  seat_priority:
+    - 二等座                     # 期望的座位类型， [商务座, 一等座, 二等座, 硬卧, 软卧, 无座, 硬座]
+
+
+
+
+
