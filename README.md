@@ -48,8 +48,37 @@ ticket_info:
 #    - G7591
   seat_priority:
     - 二等座                     # 期望的座位类型， [商务座, 一等座, 二等座, 硬卧, 软卧, 无座, 硬座]
-
 ```
+
+# Case
+```bash
+>>> Start the program...
+>>> --buy enabled: will submit after querying train_date
+>>> login success!
+>>> Release Time: 20:00:00, waiting...
+>>> Arrived at the scheduled time: 20:00:00.015709, start...
+>>> Querying tickets from 上海虹桥 to 温州南 on 2026-08-31...
+>>> status code for querying: 200
+>>> Querying success!
+>>> Querying Tickets:
+>>> A total of 97 trains were queried...
+>>> train_date 2026-08-28 qualified tickets: ['G7349']
+>>> Identity verification successful!
+>>> Ticket purchase begins...
+>>> Successfully submitted ticket purchase request!
+>>> 0‑th: Order request success!
+>>> Order confirmation page initialized successfully!
+>>> Passenger information retrieved successfully!
+>>> Verification of pre‑filled passenger information successful!
+>>> Order information check passed!
+>>> Processing the 0‑th purchase...
+>>> Successfully queued for ticket purchase!
+>>> Purchase successful, please check your order and make the payment!!!!
+>>> Duration: 0.93243 seconds.
+>>> Exit!
+>>> Run Program Successfully!
+```
+运行成功如上所示...
 
 # Reference
 - [https://github.com/WizardHeHeJun/12306_go](https://github.com/WizardHeHeJun/12306_go)
