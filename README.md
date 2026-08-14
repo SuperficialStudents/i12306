@@ -1,5 +1,6 @@
 # i12306
 Learning for Webspider...
+
 用于12306抢票，登录使用`selenium`进行手动登录保存`cookies`，随后使用`requests`发出请求
 
 # Install
@@ -62,7 +63,7 @@ ticket_info:
 >>> Querying success!
 >>> Querying Tickets:
 >>> A total of 97 trains were queried...
->>> train_date 2026-08-28 qualified tickets: ['G7349']
+>>> train_date 2026-08-31 qualified tickets: ['G7349']
 >>> Identity verification successful!
 >>> Ticket purchase begins...
 >>> Successfully submitted ticket purchase request!
